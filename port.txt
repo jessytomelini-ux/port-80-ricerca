@@ -1,15 +1,24 @@
 query: xampp apache port 80 already used by another application
 
 https://stackoverflow.com/questions/23317372/xampp-port-80-in-use-by-unable-to-open-process-with-pid-4 --> voto 7/10 (non completamente pertinente)
+What's netstat -a -b show thats listening on port 80? Basically you got some other prog listening...skype? 
 
 https://learn.microsoft.com/en-us/answers/questions/2418736/port-80-is-being-used-by-something-and-will-not-le --> voto 9/10
+What I wanted to know is how do I find out what programe is using port:80, which I have done with c:\netstat -aon but it displays the following:
+
+TCP  [::]:80 [::]:0 LISTENING 4
+
+As you can see it doesn't tell me what app is using port:80, is there a way I can reset all my ports to a windows default or how do I stop the app that is using port:80
 --------------------------------------------------------------------------------------------------------------
 query: xampp apache port already used by another application caused by
 
-https://learn.microsoft.com/en-us/answers/questions/3192189/installation-of-xampp-server-hi-im-trying-install (risposta) --> voto 6/10 
+https://learn.microsoft.com/en-us/answers/questions/3192189/installation-of-xampp-server-hi-im-trying-install (risposta) --> voto 6/10
+Hi rishavpal, This is caused by another application on your PC (usually Skype) using the same port(s) as your XAMPP Stack installation 
 --------------------------------------------------------------------------------------------------------------
 query:xampp apache port already used by another application solutions
 
 https://ourcodeworld.com/articles/read/458/how-to-solve-xampp-error-port-80-in-use-by-another-application-skype-when-starting-apache --> voto 0/10 (blog, però già qualcosa)
+ There are other solutions that can be made on the configuration of Apache but that's a lot of stuff and it can be made wrong, therefore to make it easy for you, because hey, you just want to work on your project, we'll change an option on the Skype settings.
 
 https://thisarad404.medium.com/how-i-solved-the-mysql-port-conflict-issue-in-xampp-73b02b63a93b --> voto 5/10 (risolve problema da un'altra porta, potrebbe essere applicata a quella proposta; articolo di medium)
+After a few attempts, I found that the best solution was to change the default port that MySQL uses.
