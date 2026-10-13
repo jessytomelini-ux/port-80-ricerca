@@ -1,0 +1,15 @@
+query: xampp apache port 80 already used by another application
+
+https://stackoverflow.com/questions/23317372/xampp-port-80-in-use-by-unable-to-open-process-with-pid-4 --> voto 7/10 (non completamente pertinente)
+
+https://learn.microsoft.com/en-us/answers/questions/2418736/port-80-is-being-used-by-something-and-will-not-le --> voto 9/10
+--------------------------------------------------------------------------------------------------------------
+query: xampp apache port already used by another application caused by
+
+https://learn.microsoft.com/en-us/answers/questions/3192189/installation-of-xampp-server-hi-im-trying-install (risposta) --> voto 6/10 
+--------------------------------------------------------------------------------------------------------------
+query:xampp apache port already used by another application solutions
+
+https://ourcodeworld.com/articles/read/458/how-to-solve-xampp-error-port-80-in-use-by-another-application-skype-when-starting-apache --> voto 0/10 (blog, però già qualcosa)
+
+https://thisarad404.medium.com/how-i-solved-the-mysql-port-conflict-issue-in-xampp-73b02b63a93b --> voto 5/10 (risolve problema da un'altra porta, potrebbe essere applicata a quella proposta; articolo di medium)
